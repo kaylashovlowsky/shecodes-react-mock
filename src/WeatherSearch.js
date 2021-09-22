@@ -46,7 +46,7 @@ export default function WeatherSearch() {
       <div>
         {form}
         <ul>
-          <li>It's currently {Math.round(weather.temperature)}°F</li>
+          <li>It's {Math.round(weather.temperature)}°F</li>
           <li>{weather.description}</li>
           <li>Humidity is: {Math.round(weather.humidity)}%</li>
           <li>The wind is:{weather.wind} mph</li>
